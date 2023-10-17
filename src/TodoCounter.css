@@ -1,0 +1,12 @@
+.title-h1 {
+    font-size:  30px;
+    text-align: center;
+    margin: 0;
+    padding: 15px 0px 49px 29px;
+    font-weight: normal;
+    color: rgb(237, 238, 238);
+}
+
+.title-h1 span {
+    font-weight: bold;
+}

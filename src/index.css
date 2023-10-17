@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image:url(./img/bg-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: rgb(0, 0, 0);
+  font-family: 'Montserraf', Arial, Helvetica, sans-serif;
+}
+
+#root {
+  margin:  0 24px;
+  position: relative;
+  min-height:  100vh;
+}
