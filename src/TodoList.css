@@ -1,6 +1,46 @@
+.todo-container {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
 .t-list {
     margin: 0;
-    padding: 0 0 54px 16px;
+    margin-right: 20px; 
+    width: 790px;
+    padding: 0 0 54px 40px;
     list-style: none;
     color: white;
+
+}
+
+.imgAvi .img-avi {
+    width: 340px;
+  }
+
+
+  @keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.img-avi {
+    animation: slideInRight 2s ease-in-out;
+    animation: slideInRight 1s ease-in-out, bounce 4s ease-in-out 4s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
 }
